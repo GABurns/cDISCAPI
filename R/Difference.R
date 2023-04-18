@@ -5,7 +5,7 @@
 #' @param version A character value. The version of the CDISC version being used
 #' @param previous A character value. A previous version to compare
 #'   the \code{version} to. If not supplied will compare with preceeding version.
-#' @return A character value. A sentence with a joke
+#' @return A JSON list
 #' @seealso \url{https://www.cdisc.org/cdisc-library/api-documentation}
 #' @import httr
 #' @import jsonlite
